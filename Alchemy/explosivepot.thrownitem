@@ -1,0 +1,30 @@
+{
+  "itemName" : "explosivepot",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "explosivepot.png",
+  "image" : "explosivepot.png",
+  "shortdescription" : "Explosive Potion",
+  "description" : "The reason you became an alchemist. To make things explode!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+
+  "projectileType" : "explosivepot",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 40,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind" : "explosivepotspark",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.1,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [
+      [ "explosivepotspark" ]
+    ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

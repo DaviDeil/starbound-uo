@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "volatilepowder", "count" : 2 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : { "item" : "explosivepot", "count" : 1 },
+  "groups" : [ "craftingmedical", "healing" ]
+}
